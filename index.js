@@ -1,7 +1,7 @@
 import {getIcon as roundedIcons} from './rounded/index.js';
 import { getIcon as filledIcon } from './filled/index.js';
 import { getIcon as outlinedIcon } from './outlined/index.js';
-import { getIcon as twoToneIcon } from './two-tone/index.js';
+//import { getIcon as twoToneIcon } from './two-tone/index.js';
 
 export const getIcon = (name, size=24, theme='filled') => {
     switch(theme) {
