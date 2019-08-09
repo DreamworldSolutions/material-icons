@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/DreamworldSolutions/material-icons/issues"
   },
-  "homepage": "https://github.com/DreamworldSolutions/material-icons#readme"
+  "homepage": "https://github.com/DreamworldSolutions/material-icons#readme",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.10",
+    "lit-element": "^2.0.1"
+  }
 }
