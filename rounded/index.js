@@ -35,7 +35,6 @@ let icons = {
     // toggle: toggleIcons,
 };
 
-
 export const getIcon = (name, size) => {
     let category = name.split('.')[0];
     let iconName = name.split('.')[1];

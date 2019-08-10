@@ -63,6 +63,14 @@ class materialIcon extends LitElement {
         ${filledIcon('toggle.check_box', 48, 'filled')}
         <p>check_box - 48</p>
       </div>
+
+      <div>
+        <h2>navigation</h2>
+        ${filledIcon('navigation.more_vert', 24, 'filled')}
+        <p>more_vert - 24</p>
+        ${filledIcon('navigation.close', 24, 'filled')}
+        <p>close - 24</p>   
+      </div>
      </div>
       
 
@@ -107,7 +115,6 @@ class materialIcon extends LitElement {
           <p>add_alert 48</p> 
         </div>
 
-        
         <div>
           <h2>av</h2>
           ${roundedIcons('av.add_to_queue', 48, 'rounded')}
