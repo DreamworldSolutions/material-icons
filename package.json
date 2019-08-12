@@ -1,6 +1,6 @@
 {
   "name": "@dreamworld/material-icons",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Material Design icons",
   "main": "index.js",
   "scripts": {
