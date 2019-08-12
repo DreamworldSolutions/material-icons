@@ -14,7 +14,6 @@ import { icons as navigationIcons } from './navigation.js';
 import { icons as placesIcons } from './places.js';
 import { icons as socialIcons } from './social.js';
 import { icons as toggleIcons } from './toggle.js';
-import { icons as editorIcons } from './editor.js';
 
 
 let icons = {
@@ -34,7 +33,6 @@ let icons = {
     places: placesIcons,
     social: socialIcons,
     toggle: toggleIcons,
-    editor: editorIcons
 };
 
 
