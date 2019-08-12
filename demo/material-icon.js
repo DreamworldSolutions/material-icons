@@ -38,6 +38,8 @@ class materialIcon extends LitElement {
         <h2>action</h2>
         ${filledIcon('action.accessibility', 24, 'filled')}
         <p>accessibility - 24</p>
+        ${filledIcon('action.3d_rotation', 24, 'filled')}
+        <p>3d_rotation- 24</p>
       </div>
       
       <div>
