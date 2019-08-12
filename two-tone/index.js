@@ -37,5 +37,6 @@ let icons = {
 export const getIcon = (name, size=24) => {
     let category = name.split('.')[0];
     let iconName = name.split('.')[1];
+    iconName = iconName + '_' + size;
     return icons[category][iconName];
 }
