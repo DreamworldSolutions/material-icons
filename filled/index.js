@@ -2,7 +2,7 @@ import { icons as actionIcons } from './action.js';
 // import { icons as alertIcons } from './alert.js';
 // import { icons as avIcons } from './av.js';
 // import { icons as communicationIcon } from './communication.js';
-// import { icons as contentIcons } from './content.js';
+import { icons as contentIcons } from './content.js';
 // import { icons as deviceIcons } from './device.js';
 import { icons as editorIcons } from './editor.js';
 // import { icons as fileIcons } from './file.js';
@@ -21,7 +21,7 @@ let icons = {
     // alert: alertIcons,
     // av: avIcons,
     // communication: communicationIcon,
-    // content: contentIcons,
+    content: contentIcons,
     // device: deviceIcons,
     editor: editorIcons,
     // file: fileIcons,
@@ -36,11 +36,8 @@ let icons = {
 };
 
 
-export const getIcon = (name, size) => {
+export const getIcon = (name, size=24) => {
     let category = name.split('.')[0];
     let iconName = name.split('.')[1];
-    if (size) {
-        iconName = iconName + '_' + size;
-    }
     return icons[category][iconName];
 }
