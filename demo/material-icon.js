@@ -42,6 +42,10 @@ class materialIcon extends LitElement {
         <p>3d_rotation- 24</p>
         ${filledIcon('editor.attach_file', 24, 'filled')}
         <p>attach_file - 24</p>
+        ${filledIcon('action.zoom_in', 24, 'filled')}
+        <p>zoom_in - 24</p>
+        ${filledIcon('action.zoom_out', 24, 'filled')}
+        <p>zoom_out - 24</p>
       </div>
       
       <div>
