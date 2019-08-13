@@ -6,7 +6,7 @@ import { icons as actionIcons } from './action.js';
 // import { icons as deviceIcons } from './device.js';
 import { icons as editorIcons } from './editor.js';
 // import { icons as fileIcons } from './file.js';
-// import { icons as hardwareIcons } from './hardware.js';
+ import { icons as hardwareIcons } from './hardware.js';
 // import { icons as imageIcons } from './image.js';
 // import { icons as mapIcons } from './maps.js';
 import { icons as navigationIcons } from './navigation.js';
@@ -25,7 +25,7 @@ let icons = {
     // device: deviceIcons,
     editor: editorIcons,
     // file: fileIcons,
-    // hardware: hardwareIcons,
+     hardware: hardwareIcons,
     // image: imageIcons,
     // maps: mapIcons,
     navigation: navigationIcons,
