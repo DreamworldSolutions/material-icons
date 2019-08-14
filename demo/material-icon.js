@@ -36,10 +36,10 @@ class materialIcon extends LitElement {
      <div class="categorie-container">
       <div>
         <h2>action</h2>
-        ${filledIcon('action.accessibility', 24, 'filled')}
-        <p>accessibility - 24</p>
-        ${filledIcon('action.3d_rotation', 24, 'filled')}
-        <p>3d_rotation- 24</p>
+        ${filledIcon('action.event_seat', 24, 'filled')}
+        <p>event_seat - 24</p>
+        ${filledIcon('action.commute', 24, 'filled')}
+        <p>commute - 24</p>
         ${filledIcon('editor.attach_file', 24, 'filled')}
         <p>attach_file - 24</p>
         ${filledIcon('action.zoom_in', 24, 'filled')}
