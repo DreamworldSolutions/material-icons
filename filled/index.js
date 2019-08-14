@@ -7,7 +7,7 @@ import { icons as contentIcons } from './content.js';
 import { icons as editorIcons } from './editor.js';
 // import { icons as fileIcons } from './file.js';
 import { icons as hardwareIcons } from './hardware.js';
-// import { icons as imageIcons } from './image.js';
+import { icons as imageIcons } from './image.js';
 // import { icons as mapIcons } from './maps.js';
 import { icons as navigationIcons } from './navigation.js';
 // import { icons as notificationIcons } from './notification.js';
@@ -26,7 +26,7 @@ let icons = {
     editor: editorIcons,
     // file: fileIcons,
     hardware: hardwareIcons,
-    // image: imageIcons,
+    image: imageIcons,
     // maps: mapIcons,
     navigation: navigationIcons,
     // notification: notificationIcons,
