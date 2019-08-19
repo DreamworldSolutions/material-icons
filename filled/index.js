@@ -1,7 +1,7 @@
 import { icons as actionIcons } from './action.js';
 import { icons as alertIcons } from './alert.js';
 import { icons as avIcons } from './av.js';
-// import { icons as communicationIcon } from './communication.js';
+import { icons as communicationIcon } from './communication.js';
 import { icons as contentIcons } from './content.js';
 // import { icons as deviceIcons } from './device.js';
 import { icons as editorIcons } from './editor.js';
@@ -20,7 +20,7 @@ let icons = {
     action: actionIcons,
     alert: alertIcons,
     av: avIcons,
-    // communication: communicationIcon,
+    communication: communicationIcon,
     content: contentIcons,
     // device: deviceIcons,
     editor: editorIcons,
