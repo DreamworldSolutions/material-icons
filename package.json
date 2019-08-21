@@ -1,6 +1,6 @@
 {
   "name": "@dreamworld/material-icons",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Material Design icons",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.2.10",
     "lit-element": "^2.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
