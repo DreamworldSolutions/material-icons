@@ -3,9 +3,9 @@ import { icons as alertIcons } from './alert.js';
 import { icons as avIcons } from './av.js';
 import { icons as communicationIcon } from './communication.js';
 import { icons as contentIcons } from './content.js';
-// import { icons as deviceIcons } from './device.js';
+import { icons as deviceIcons } from './device.js';
 import { icons as editorIcons } from './editor.js';
-// import { icons as fileIcons } from './file.js';
+import { icons as fileIcons } from './file.js';
 import { icons as hardwareIcons } from './hardware.js';
 import { icons as imageIcons } from './image.js';
 // import { icons as mapIcons } from './maps.js';
@@ -22,9 +22,9 @@ let icons = {
     av: avIcons,
     communication: communicationIcon,
     content: contentIcons,
-    // device: deviceIcons,
+    device: deviceIcons,
     editor: editorIcons,
-    // file: fileIcons,
+    file: fileIcons,
     hardware: hardwareIcons,
     image: imageIcons,
     // maps: mapIcons,
