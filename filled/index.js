@@ -8,9 +8,9 @@ import { icons as editorIcons } from './editor.js';
 import { icons as fileIcons } from './file.js';
 import { icons as hardwareIcons } from './hardware.js';
 import { icons as imageIcons } from './image.js';
-// import { icons as mapIcons } from './maps.js';
+import { icons as mapIcons } from './maps.js';
 import { icons as navigationIcons } from './navigation.js';
-// import { icons as notificationIcons } from './notification.js';
+import { icons as notificationIcons } from './notification.js';
 import { icons as placesIcons } from './places.js';
 import { icons as socialIcons } from './social.js';
 import { icons as toggleIcons } from './toggle.js';
@@ -27,9 +27,9 @@ let icons = {
     file: fileIcons,
     hardware: hardwareIcons,
     image: imageIcons,
-    // maps: mapIcons,
+    maps: mapIcons,
     navigation: navigationIcons,
-    // notification: notificationIcons,
+    notification: notificationIcons,
     places: placesIcons,
     social: socialIcons,
     toggle: toggleIcons,
